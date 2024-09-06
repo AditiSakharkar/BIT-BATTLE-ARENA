@@ -1,0 +1,67 @@
+.app {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 8px;
+  margin: 20px auto;
+  max-width: 220px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.controls {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operations button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.operations button:hover {
+  background-color: #555;
+}
+
+.btnclass button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnclass button:hover {
+  background-color: #0056b3;
+}

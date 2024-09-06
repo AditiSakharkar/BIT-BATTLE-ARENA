@@ -1,0 +1,30 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.controls .operations {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between operation buttons */
+  margin-bottom: 10px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.controls .btnclass {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+.controls div {
+  margin-top: 10px;
+}
