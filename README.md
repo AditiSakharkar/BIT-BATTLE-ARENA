@@ -3,9 +3,9 @@ Description
 A strategic grid-based game where two players, A and B, take turns to place and manipulate binary values (0 and 1) on a 4x4 board. Players can perform various logical operations (AND, OR, XOR, NOT) on adjacent cells. The game ends when all cells are filled, and the winner is determined based on the number of cells each player controls.
 
 
-![Screenshot1](s1.png)
-![Screenshot2](s2.png)
-![Screenshot2](s3.png)
+![Screenshot1](s1.jpeg)
+![Screenshot2](s2.jpeg)
+![Screenshot2](s3.jpeg)
 
 Features
 
